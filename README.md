@@ -13,6 +13,10 @@ This repo is used in conjunction with three other repos listed below. Together t
 
 You can find the demo here: https://thawkin3-single-spa-demo.herokuapp.com/page1
 
+# Article
+
+You can find the whole article here: https://www.freecodecamp.org/news/developing-and-deploying-micro-frontends-with-single-spa/
+
 ## How It Works
 
 This project uses [single-spa](https://single-spa.js.org/) to architect an app composed of micrfrontends. In the root config, the three microfrontend apps (nav, page 1, and page 2) are registered with singe-spa. The main `index.ejs` file contains an import map, which references where to find the compiled JavaScript bundle for each microfrontend. [SystemJS](https://github.com/systemjs/systemjs) is the module loader which then loads the bundles when needed.
